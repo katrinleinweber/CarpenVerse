@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <!-- Created on Wed, 12 Feb 2020 12:12:55 GMT -->
   <ShortName>CarpenVerse</ShortName>
   <Description>Searches all Carpentries organizations on GitHub (Software, Data &amp; Library Carpentry, etc.)</Description>
   <Url type="text/html" method="get" template="https://github.com/search?q=org%3ACarpentries+org%3ALibraryCarpentry+org%3ADataCarpentry+org%3ASwCarpentry+org%3ACarpentriesLab+org%3AAuthorCarpentry+org%3AHPC-Carpentry+org%3Acarpentries-incubator+org%3ACarpentries-ES+{searchTerms}&amp;type=Issues"/>
